@@ -1,5 +1,5 @@
 #+AUTHOR: nekosensei
-#+TITLE:
+#+TITLE: steins;gem
 
 * Preface and Caution
 
@@ -17,7 +17,7 @@ Well. This time things may be a little different than you remember them.
 
 "So not fair. I've taken extra good care of you and everything."
 
-** Part 0.
+** Introduction and Poetry
 
 Tradition dictates that we open the work with introspection and
 philosophy. Let us consider a twist, then, on the classic question:
@@ -50,7 +50,7 @@ But we must put aside our feeble poetry for now and return to our ship
 of fools. Oh, yes, they chase phantoms as before. What will happen, I
 wonder, if they catch one?
 
-** Part 1.
+** Lab Crisis
 
 The hostage has been shot.
 
@@ -92,10 +92,10 @@ them shoot or of she waits too long the thugs will waste no time
 turning the room into a killing zone. She will rely on the gambit,
 then, and risk herself -/
 
-"The 50 inch television downstairs. It's on."
+"The 42 inch television downstairs. It's on."
 
 The part of Okabe's mind that understood the broken door makes itself
-useful, now. The 50 inch television belongs to Mr. Braun. The 50 inch
+useful, now. The 42 inch television belongs to Mr. Braun. The 42 inch
 television acts as a lifter to power the /PhoneWave (Real Name TBD)/. He
 can send a D-mail. He can do better than a D-Mail. He can save his
 friend -
@@ -153,7 +153,7 @@ and go out, fluorescence replaced with a crimson glow of the deepest,
 reddest red.
 
 
-** Part 2.
+** Serenity
 
 "Grandma?" asks the little girl.
 
@@ -289,12 +289,12 @@ The angel nods.
 can help you to the start of the path."
 
 
-** Part 3a.
+** Lab Observations
 
 /Your wish has overcome entropy,/ begins the creature, but Mayuuri is
 already moving, screaming -
 
-** Part 3c.
+** Lab Aftermath
 
 The floor is doused in red blood, and the room glows with a red light,
 and at the center of it all is Mayuuri, hovering in the air, a foot
@@ -328,7 +328,7 @@ Moeka's neck, but she is agape.
 
 * Entropy Divergence
 
-** Part 3d.
+** Lab Evacuation
 
 "I've finally lost it," said Okabe to Daru. The pair of them have
 scrambled over to a corner. "None of this is real, is it. They're
@@ -339,7 +339,7 @@ you are, and I will /not/ look good in a size-84 straitjacket."
 
 The red light faded, and there was a familiar giggling.
 
-The assistant's voice. "May ... Mayuuri? Is that you?"
+The assistant's voice calls out. "May ... Mayuuri? Is that you?"
 
 "Mmm-hmm! You're all better meow. I'll go get Okarin. Okarin!!!"
 
@@ -347,7 +347,8 @@ Drawn by her voice, he stumbles to his feet, still trying to piece
 things together. The hostage is still a catgirl maid, but the terrible
 /red/ is gone, replaced with sky-blue frills. Mayuuri blue.
 
-Kurisu is still "How are you - what happened? You were hurt ..."
+Kurisu is whole, but confused. "How are you - what happened? You were
+hurt ..."
 
 "Well, Meoweka shot me, but I became a magical girl so I could save
 all of you guys!"
@@ -359,9 +360,8 @@ feet. "... Daru, I swear, if you say one word that is less than
 perfectly appropriate I will relieve you of your spine. Is that
 clear?"
 
-"But we need to get going really soon meow. There are probably more of
-bad guys waiting outside just in case one of us tried to escape, and
-they might call for backup."
+"But we need to get going really soon meow. They might have brought
+backup."
 
 "Do we need to take the time machine?" asked Kurisu.
 
@@ -371,7 +371,7 @@ scientist. "We'll burn down the lab to destroy the evidence."
 
 "Gather what you can, then," said Suzuha. "I'll go hot-wire a car."
 
-** Part 4a.
+** Escape
 
 "We've met online before, you and me," said Suzuha, loading the
 partially disassembled microwave into the hatchback. "I post as John
@@ -379,7 +379,7 @@ Titor. I'm a time traveller."
 
 "I hid my posts in plain sight," revealed the mad scientist...
 
-** Part 4b.
+** Escape Crisis
 
 Suzuha drove the car and explained at the same time.
 
@@ -412,7 +412,7 @@ They passed a van, and turned the corner.
 
 Suzuha nodded. "One of the organisation's oldest fronts. They do real
 deliveries, but there are ties to the Yakuza. I'll take a detour, make
-sure they can't follow us."
+sure they can't follow us. Play it cool."
 
 She slowed, turning the van down an alley - then stopped, and shifted
 into reverse.
@@ -423,7 +423,117 @@ into reverse.
 
 "totally screwed we're /totally screwed/."
 
-** Part 3a.
+** Chase
+"Maybe we can negotiate! We have a hostage!" Daru looked back to the
+trunk, where Moeka was tied up.
+
+"NO!" said Mayuuri. "No hostages. That's _my_ job and I'm not letting
+you give it to anybody else. Besides, it's not really her fault."
+
+"Not her fault?" said Kurisu, from the front seat. "How - I mean, I
+don't like the idea either, but - Mayuuri, she _shot_ you! By all
+rights you should be dead right now, and -"
+
+"No buts. You can tie her up for meow to be safe, but no being
+mean. She's not the bad guy here, she's just ... very confused.
+Besides, they probably don't really care if she gets hurt."
+
+Suzuha *squealed* around the corner, and Okabe slammed into
+Mayuuri.
+
+"Hey, careful!" said Daru.
+
+"Oof!" said Mayuuri, but she had a distracted look.
+
+"Confound it, woman! Where did you learn to drive?!" exclaimed Okarin.
+
+Suzuha wore a grim expression.  "Right, so guys, I don't know how to
+say this - well, no, I mean, I already said we're totally screwed - I
+think they followed me."
+
+The black car from the alley swerved around the corner. Its headlights
+were still off.
+
+"While I fully concur with the accuracy of your assessment, I'd say
+that it runs a little bit on the _obvious_ side of things!"
+
+"No, from 2036."
+
+Kurisu was a little taken aback. "What? How ... I mean, the _physics_
+involved; if you change the future ..."
+
+"Yeah the physics involved all work out fine if we're in a closed
+timelike curve where we were all _doomed before I started_."
+
+"Oh. Shit." Daru swore.
+
+"Exactly."
+
+Okabe looked out the rear window. The black car was gaining on
+them. The driver was a girl with long red hair, and a ponytail - a
+young girl, younger than Suzuha. She wore an unsettling smile.
+
+"Looking on the bright side", said Suzuha, "there are a couple of
+other unsettling possibilities. For instance right now I'm just
+/assuming/ that we're being chased by a robot assassin from the
+future. It could be that SERN already has that technology." She
+laughed a nervous laugh.
+
+"Robot assassin??!" asked Daru.
+
+"SERN's top enforcers. Incredibly dangerous. They ... don't experience
+pain. You can shoot them full of holes and they just don't stop. And
+apparently someone has a depraved sense of humor because they all look
+like teenage girls." Suzuha ran a red light as she explained.
+
+"Oh, how lovely," said Kurisu, with a nervous tone.
+
+"I'm going to be honest with you," said Suzuha, "most people don't
+survive an encounter."
+
+"What is she doing?" asked Okabe, staring.
+
+The pursuer had opened the car door, and placed a hand on the top of
+the car. In a single, swift movement, she flipped herself onto the
+roof. The car, somehow, kept driving - accelerated, even.
+
+Okabe's mind reached for something to say: an obscure curse, an appeal
+to Norse gods, a plea in the name of Science. He found nothing.
+
+A mid-air somersalt later, the girl was on the roof.
+
+** Escape End
+
+"Everyone sit tight," said Mayuuri. "I'm going to try and talk to
+her."
+
+Suzuha swerved wildly, hoping to shake off the attacker. "No! We can't
+let them have it!" She took in her surroundings, made one last turn
+onto a bridge over the river.
+
+"Are you out of your mind?!" exclaimed Daru.
+
+/knock knock knock/, went a sound on the driver's window. A muffled
+voice came through the glass. "You guys mind stopping?"
+
+"You won't take us alive!" exclaimed Suzuha, pulled the steering
+wheel *hard*
+
+the girl flew off the roof and onto the deck of the bridge, but the
+rolled over, out of control, on its roof, back upright for a moment
+but still flying through the air
+
+smashed a guardrail, and off the
+
+side of the bridge, they
+
+were falling and
+
+"Okarin!" cried Mayuuri, reached for his hand and
+
+*splash*
+
+** Lab Observations 2
 
 Ordinary observations do not usually merit the invocation of FTL
 communications before being processed and summarized: it's simply
@@ -477,3 +587,78 @@ provided as feasible and further monitoring of anomaly «Shiina
 Mayuuri» and her associates will continue. If sympathetic potential
 resonance promotes more associates of anomaly «Shiina Mayuuri» to
 Candidate the rewards may be substantial."
+
+** Lab Aftermath 2
+
+The floor is doused in red blood, and the room glows with a red light,
+and at the center of it all is Mayuuri, hovering in the air, a foot
+above the ground. She is not dressed in her sundress, but a maid
+costume, with many frills, a pocket-watch at her side, and it is all
+the same red as the blood on the floor.
+
+Okabe has seen Mayuuri wear red before. It wasn't even that long ago.
+What he doesn't understand is why he's seeing it again.
+
+The cat-girl's ears twitch, and she turns to face him, with a *hiss*.
+Okabe jumps back in surprise, and she /pounces/ but not on Okabe, on
+the Organization operative behind behind him, just in front of Daru
+(who is lying on the floor). Now there is another scream, mixed with
+the ugly gurgle of blood.
+
+Suzuha, to her credit, still has her wits about her, her foot against
+Moeka's neck, but she is agape.
+
+** Lab Evacuation 2
+"I don't get it," said Okabe. He was less panicked than before, but
+still shaken. "How? It doesn't make sense. Have I actually gone mad?
+We were in the car ..."
+
+Daru looked at him funny. "Dude... pull it together. You're kinda
+scaring me, and - I mean - given what just happened that takes some
+doing."
+
+The red light faded, and there was a familiar giggling.
+
+The assistant's voice calls out. "May ... Mayuuri? Is that you?"
+
+"Mmm-hmm! You're all better meow. I'll go get Okarin. Okarin!!! We're
+back!"
+
+"Back?"
+
+Kurisu is whole, but confused. "How are you - what happened? You were
+hurt ..."
+
+"Well, Meoweka shot me, but I became a magical girl so I could save
+all of you guys!"
+
+Daru stared. "Magical ... catgirl ... mayuuri? M... m..."
+
+"... Daru, I swear, if you say one word that is less than perfectly
+appropriate I will relieve you of your spine. Is that clear?"
+
+"But we need to get going really soon meow. There might have some
+backup and there are probably more bad guys waiting nearby just in
+case one of us tried to escape, so they can give chase."
+
+"Do we need to take the time machine?" asked Kurisu.
+
+"... Just the important parts," said Okabe, pulling himself back
+together. "The phone-wave unit. Computer. Headset. We'll find another
+monitor."
+
+"Gather what you can, then," said Suzuha. "I'll go hot-wire a car."
+
+"No driving it off a bridge this time, Titor!" exclaimed Okabe.
+
+"... wait, what?" Suzuha froze.
+
+"That's right. I know your game, future-girl. You're a time traveller
+from the year 2036. Did you really think you could hide your online
+identity from the great Houin Kyouma??!? Your operational security is
+no match for my towering intellect! You're just lucky that we're on
+the same side."
+
+"/Okarin!/" said Mayuuri. "Be /nice/."
+
+"... right, sorry. The car! We shall converse while we are en route!"
