@@ -1,11 +1,35 @@
-#+AUTHOR: nekosensei
-#+TITLE: steins;gem
+#+BEGIN_COMMENT
+; hack up org-mode to do italic paragraphs
+(setf (nth 4 org-emphasis-regexp-components) 90)
+(load-library "org")
+(org-mode)
+#+END_COMMENT
+#+AUTHOR:  nekosensei
+#+TITLE:   steins;gem
+#+OPTIONS:     toc:nil date:nil
+#+LaTeX_CLASS: book
+#+LaTeX_CLASS_OPTIONS: [koma,b5paper,oneside,notitlepage]
+#+LaTeX_HEADER: \usepackage{indentfirst}
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage[adobe-utopia]{mathdesign}
+#+LaTeX_HEADER: \usepackage[scaled]{berasans}
+#+LaTeX_HEADER: \usepackage[scaled]{beramono}
+#+LaTeX_HEADER: \setlength{\parskip}{1mm}
+-----
 
-* Preface and Caution
+#+BEGIN_CENTER
 
 /Mad Steins;Gate spoilers are contained within./
 
-* Despair in Ergosphere
+/Madoka Magica spoilers also contained within./
+
+#+END_CENTER
+-----
+
+#+TOC: headlines 0
+
+* Girl in Blue
+** Despair in Ergosphere
 "Oh no! I just wound you! Don't tell me you're broken," cries the
 hostage in blue, holding her grandmother's pocket watch and saying
 these words for - is it, perhaps, the first time?
@@ -16,7 +40,7 @@ Well. This time things may be a little different than you remember them.
 
 "So not fair. I've taken extra good care of you and everything."
 
-** Introduction and Poetry
+*** Introduction and Poetry
 
 Tradition dictates that we open the work with introspection and
 philosophy. Let us consider a twist, then, on the classic question:
@@ -49,7 +73,7 @@ But we must put aside our feeble poetry for now and return to our ship
 of fools. Oh, yes, they chase phantoms as before. What will happen, I
 wonder, if they catch one?
 
-** Lab Crisis
+*** Lab Crisis
 
 The hostage has been shot.
 
@@ -151,7 +175,7 @@ brutal, animal rage. The building shakes, a little. The lights flicker
 and go out, fluorescence replaced with a crimson glow of the deepest,
 reddest red.
 
-** Serenity
+*** Serenity
 
 "Grandma?" asks the little girl.
 
@@ -286,12 +310,12 @@ The angel nods.
 "I'm afraid I can't /tell/ you, not exactly, or it won't work. But I
 can help you to the start of the path."
 
-** Lab Observations
+*** Lab Observations
 
-/Your wish has overcome entropy,/ begins the creature, but Mayuuri is
+/Your wish has overcome entropy/, begins the creature, but Mayuuri is
 already moving, screaming -
 
-** Lab Aftermath
+*** Lab Aftermath
 
 The floor is doused in red blood, and the room glows with a red light,
 and at the center of it all is Mayuuri, hovering in the air, a foot
@@ -322,8 +346,8 @@ the ugly gurgle of blood.
 Suzuha, to her credit, still has her wits about her, her foot against
 Moeka's neck, but she is agape.
 
-* Entropy Divergence
-** Lab Evacuation
+** Entropy Divergence
+*** Lab Evacuation
 
 "I've finally lost it," said Okabe to Daru. The pair of them have
 scrambled over to a corner. "None of this is real, is it. They're
@@ -366,7 +390,7 @@ scientist. "We'll burn down the lab to destroy the evidence."
 
 "Gather what you can, then," said Suzuha. "I'll go hot-wire a car."
 
-** Escape
+*** Escape
 
 "We've met online before, you and me," said Suzuha, loading the
 partially disassembled microwave into the hatchback. "I post as John
@@ -374,7 +398,7 @@ Titor. I'm a time traveller."
 
 "I hid my posts in plain sight," revealed the mad scientist...
 
-** Escape Crisis
+*** Escape Crisis
 
 Suzuha drove the car and explained at the same time.
 
@@ -418,7 +442,7 @@ into reverse.
 
 "totally screwed we're /totally screwed/."
 
-** Chase
+*** Chase
 "Maybe we can negotiate! We have a hostage!" Daru looked back to the
 trunk, where Moeka was tied up.
 
@@ -450,15 +474,15 @@ The black car from the alley swerved around the corner. Its headlights
 were still off.
 
 "While I fully concur with the accuracy of your assessment, I'd say
-that it runs a little bit on the _obvious_ side of things!"
+that it runs a little bit on the /obvious/ side of things!"
 
 "No, from 2036."
 
-Kurisu was a little taken aback. "What? How ... I mean, the _physics_
+Kurisu was a little taken aback. "What? How ... I mean, the /physics/
 involved; if you change the future ..."
 
 "Yeah the physics involved all work out fine if we're in a closed
-timelike curve where we were all _doomed before I started_."
+timelike curve where we were all /doomed before I started/."
 
 "Oh. Shit." Daru swore.
 
@@ -497,7 +521,7 @@ to Norse gods, a plea in the name of Science. He found nothing.
 
 A mid-air somersalt later, the girl was on the roof.
 
-** Escape End
+*** Escape End
 
 "Everyone sit tight," said Mayuuri. "I'm going to try and talk to
 her."
@@ -528,7 +552,7 @@ were falling and
 
 *splash*
 
-** Lab Observations 2
+*** Lab Observations 2
 
 Ordinary observations do not usually merit the invocation of FTL
 communications before being processed and summarized: it's simply
@@ -583,7 +607,7 @@ Mayuuri» and her associates will continue. If sympathetic potential
 resonance promotes more associates of anomaly «Shiina Mayuuri» to
 Candidate the rewards may be substantial."
 
-** Lab Aftermath 2
+*** Lab Aftermath 2
 
 The floor is doused in red blood, and the room glows with a red light,
 and at the center of it all is Mayuuri, hovering in the air, a foot
@@ -603,7 +627,7 @@ the ugly gurgle of blood.
 Suzuha, to her credit, still has her wits about her, her foot against
 Moeka's neck, but she is agape.
 
-** Lab Evacuation 2
+*** Lab Evacuation 2
 "I don't get it," said Okabe. He was less panicked than before, but
 still shaken. "How? It doesn't make sense. Have I actually gone mad?
 We were in the car ..."
@@ -657,8 +681,8 @@ the same side."
 "/Okarin!/" said Mayuuri. "Be /nice/."
 
 "... right, sorry. The car! We shall converse while we are en route!"
-* Redemption Point
-** Curiosity: Denial
+** Redemption Point
+*** Curiosity: Denial
 
 The transfer student was trying to get out of an awkward conversation.
 
@@ -717,7 +741,7 @@ the right thing, trying - /hell/, trying to be a true ally of
 justice. An exercise in futility, of course, but she was never one to
 let that stop her. Stupid girl, but a brave heart... I'm sorry. I'm no
 good at eulogies. But you should think well of her." /And in the name
-of Kaname Madoka-chan, don't try to follow in her footsteps,/ she
+of Kaname Madoka-chan, don't try to follow in her footsteps/, she
 added mentally.
 
 "Oh." Hitomi closed her eyes, reflecting. "That's ... thank you,
@@ -742,11 +766,11 @@ Homura inhaled. "It -"
 politeness."
 
 /Again/, thought Homura. She'd paused too long, and now she was doing
-it /again/, still unsure of what to say. /Am I just that easy to read?
-Or am I out of practice? Wow, Homura. Two hundred months of the same
-conversations and you've forgotten how to talk to real people... Or ..
-no, when you get down to it, I suppose that was something you never
-actually learned to begin with./
+it /again/, still unsure of what to say. /Am I just that easy to
+read? Or am I out of practice? Wow, Homura. Two hundred months of
+the same conversations and you've forgotten how to talk to real
+people... Or ..  no, when you get down to it, I suppose that was
+something you never actually learned to begin with./
 
 "It... it's okay, I'll ... I'll just leave you be, Homura-san."
 
@@ -754,7 +778,7 @@ Hitomi managed, somehow, /not/ to cry until she had made it to her
 locker, and even then only for a bit. At home, though, safely cocooned
 in a pile of blankets and pillows, it was another matter.
 
-** Before the Hunt
+*** Before the Hunt
 "Well." said Mami-senpai. "What's done is done, I suppose. At the rate
 things are going, it's the last of our problems if she finds out
 more. And don't be too hard on yourself. It's not a bad thing to reach
@@ -793,7 +817,7 @@ wandering tonight?"
 
 Homura shrugged. "In this heat? Somewhere with a beach, maybe."
 
-** Heresy Rendezvous
+*** Heresy Rendezvous
 The girl with red hair was not very good at wandering in the
 wilderness. For a week or three she had managed well enough, but one
 day after a mean little fight with some demons (and some girls who
@@ -946,7 +970,7 @@ For the first time in well over a year, laughter echoed through the
 church. "Yeah. Yeah, I was a real good little choir girl back in the
 day, wasn't I? Almost as sharp a dresser as you, if I'm honest."
 
-** Heresy Connection
+*** Heresy Connection
 
 She wasn't sure how long they talked, but Oriko left her with a bag of
 fresh apples and an open invitation to drop by next time she was in
@@ -957,7 +981,219 @@ Perhaps she /would/ visit in a while. Still, maybe give it a few days,
 wait until the middle of the week. Besides, in this weather, she ought
 to take some time and visit the beach.
 
-**  Regret and Entropy
+***  Regret and Entropy
 
 /make a contract with me/, said the bunny - cat - thing to the
 emotional wreck, /and/
+** Subversion Point
+*** Curiosity: Engagement
+
+It had started out as a rather funny office lunch.
+
+"Is this a bloody joke?" asked Dr. Ross.
+
+"An insult," suggested Dr. Luciano.
+
+"Well fine, I'll take it then," said Dr. Smith.
+
+"And dirty your hands?" asked Dr. Luciano.
+
+"Please. While the purchase of a lottery ticket is no doubt an
+irrational act with a net negative expected value, a €5 scratch off
+ticket most likely has an average value of ... oh, I don't know, at
+/least/ two euros, maybe €2.50? Easily worth a few moments' of time
+with one's esteemed colleagues." He removed a coin from his pocket,
+a €2, and held it up. "How appropriate."
+
+"It's the principle of the thing," said Dr. Luciano. "A question of
+intellectual conistency. To play at the social sciences, it is a
+question of virtue signalling. Is your reputation as an intellectual
+worth no more than the coins in your pocket?"
+
+"Well, bloody hell," said Dr. Smith. "Instant prize, €500."
+
+"You can't be serious," objected Ross.
+
+"In the interest of furthering international fraternity and the
+brotherhood of science, I hereby donate this ticket to the Super
+Proton Synchrotron team party fund," declared Smith.
+
+"We have a party fund?" asked Ross.
+
+"We do now." He picked up the envelope that it had arrived in. "Now,
+the question is, who would have thought send such a thing?" The
+envelope was a crisp white, a good quality paper, hand lettered
+address in all capitals, crimson red ink. "What on Earth is this
+postmark? China?"
+
+"Nippon. Look at the stamp," pointed out Luciano, "and I think it is
+rice paper, the envelope."
+
+"Who on Earth sends a scratch-off Euro lottery card to Switzerland
+... via Japan?" asked Ross.
+
+"Have you considered the possibility that it was the work of aliens?"
+
+For about a week, aliens invading Earth by sending lottery tickets via
+Nippon Post was a running joke. Then on Monday, they got another letter.
+
+"Well this is nice," said Dr. Smith. "We can have a /big/ party."
+
+"Yes, but look," said Ross, "it's addressed to the Super Proton
+Synchrotron team, /Extraterrestrial Activities Unit/."
+
+"Aha. Someone from the office, then. How droll." He extracted a small
+Swiss knife from his pocket, and set about the business of opening.
+"What have we here?" he inquired, after a moment.
+
+"Ah, that is the receipt that you get when you purchase the ticket,"
+said Luciano.
+
+"Oh, right. You'd forget I don't play these regularly, listening to
+the talk around here." He extracted his phone from a pocket. "Does
+anyone know how to check the numbers on one of these?"
+
+"Slow down," said Ross, "the draw isn't until tomorrow."
+
+"How can you tell? Oh, it's on the receipt."
+
+*** Curiosity: Overload
+"Sweet mother of Jesus," said Luciano. "That's one hell of a party."
+
+It was a later evening than most in the office (with the exception of
+certain experiments) and Dr. Felicia Jannsen, notorious wet blanket -
+and programme director - noted the small crowd on her way out. "If you
+boys want a party," she said drily, "you can book a proper venue, but
+you're not having it in any of my labs."
+
+"I don't think that'll be a problem," said Smith. "That's like
+... what, /twenty thousand euro?/"
+
+"That's five numbers matched," noted Ross, "but neither of the Lucky
+Stars. Looks like Lucky Dip, registered trademark, wasn't so lucky
+after all. Should have been 3 and 12."
+
+"What? You played the lottery? And /won/?" asked the director.
+
+"Never in my life!" said Luciano, and explained the circumstances, the
+mysterious letter.
+
+Dr. Jannsen blinked, put down her bag, and pulled out a pile of mail.
+
+"Sweet mother of Jesus," said Luciano. "Another one?"
+
+"You already used 'sweet mother of Jesus'," said Smith. "I'll thank
+you to mix it up a little."
+
+Inside the envelope was a simple sheet of plain paper, a short message
+in crimson red: the numbers three and twelve, surrounded by a star
+outline, and "SORRY", once again in all caps.
+
+"Well that's quite nice," said Ross. "Very symmetrical."
+
+"Is this some kind of a joke?" asked the director.
+
+"... A threat," suggested Luciano.
+
+"Who knows about this?" asked the director.
+
+"Well, we were joking about the last ticket all week, so a lot of
+people, but, ah..."
+
+"Right," she said in a deathly calm voice, "if anybody asks, this
+ticket was a dud. Got it? This /could/ be a security matter."
+
+"You're thinking Russia or whoever has an agent in Euro Millions?"
+
+"I don't know. Send any more of these" - she held up an envelope -
+"directly to me. If it turns out it's nothing, you can have the
+party. I'll deal with it tomrrow."
+
+*** Curiosity: Blackmail
+On Wednesday morning, shortly before she was going to meet with the
+head of security, an express overnight envelope arrived. Inside was a
+similar rice-paper envelope, and inside that were the co-orodinates,
+dates, times, and magnitudes of several small earthquakes (2.1 to 3.8)
+which had not yet happened. On a separate sheet of paper, were the
+closing stock prices of the Dow Jones Industrial average, due for late
+in the evening.
+
+The director cancelled her meetings and instead spent the day pulling
+her hair and watching a USGS feed with the Super Proton Synchrotron
+leadership team. When the regular mail arrived in the afternoon, with
+another rice paper envelope, no one wanted to be the one open it. They
+drew straws, using pencils.
+
+"Fucking hell," said Smith. "It's like one of those Internet crazies
+come true. What a nightmare."
+
+"Ah, but take solace, my friend," said Luciano. "Our clarivoyant
+emmisary at least has the good sense to contact the world through its
+/scientific/ leadership, and to lead with the evidence! We are clearly
+dealing with greater wisdom than fools posting on the Internet."
+
+"Imagine if he'd gone to the Americans," said Ross.
+
+"By God's hooks," said Luciano, "that /would/ be a disaster."
+
+"... by which, what now?" asked Smith.
+
+"It is as you requested, I am attempting more variety in my oaths."
+
+"Stop it," said Dr. Jannsen. "I have enough of a headache already."
+
+A moment passed before anyone spoke again.
+
+"So what now?" asked Dr. Smith. "What is the ethical thing to do in
+this situation? Our responsibilities to humanity? To the project?"
+
+"You know what? I just want to see some new physics out of it," opined
+Ross. "That's what we're supposed to be here for. Isn't it?"
+
+"We've yet to see these proposed technical parameters," noted the
+director. "We'll decide tomorrow."
+
+*** Curiosity: Singularity
+"Well bloody hell, that's ... that's genius. It /might/ very well just
+do it," said Ross, holding up an engineering diagram from a stack.
+
+"It'll mean /months/ of downtime!" objected Smith.
+
+"What is all the rest?" inquired Luciano.
+
+"Looks like about five pages of... control software?" asked Ross. "In
+pen?"
+
+"... Hey, look at this." said Dr. Smith. "Notice anything funny?"
+
+"How do you mean?" asked Ross.
+
+"If I didn't know better, I'd swear that you wrote this code. Look at
+the gratuitous use of 'tap'. You're the only one in the office with
+this kind of monad obsession."
+
+"It's a question of mathematical purity - " said Ross. "Ah. Yes.
+I suppose I see what you mean."
+
+"What did he say in the letter?" asked the director, and reached for
+the earlier letter. "... foreknowledge has limits: in particular,
+myself. Lottery numbers and lists of facts are easy to copy from the
+future, but I am restricted by my ability to comprehend and reproduce
+the material. Thus I do /wish/ to enlist your assistance... et cetera."
+
+"Bloody hell," said Ross, "My work has been plaigarized, and I haven't
+even done it yet."
+
+"You have already used 'bloody hell' this conversation," noted
+Luciano. "What is this foul stench in the air? Is it, perhaps,
+hipocrisy?"
+
+"Gentlemen. What's your analysis?" demanded the director.
+
+"Well, I can't be completely sure from just a few sketches," said
+Ross, "but if this pans out, we could kiss the tera-electron volt
+regime goodbye, and that's just with the current facilities. Five
+years and an upgrade to the main loop? We could be on the other side
+of the desert and start looking at grand unification energies."
+
+"Bloody hell," said Luciano.
