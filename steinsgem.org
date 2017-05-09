@@ -1,28 +1,22 @@
-#+BEGIN_COMMENT
-; hack up org-mode to do italic paragraphs
-(setf (nth 4 org-emphasis-regexp-components) 90)
-(load-library "org")
-(org-mode)
-#+END_COMMENT
-#+AUTHOR:  nekosensei
-#+TITLE:   steins;gem
-#+OPTIONS:     toc:nil date:nil
-#+LaTeX_CLASS: book
-#+LaTeX_CLASS_OPTIONS: [koma,b5paper,oneside,notitlepage]
-#+LaTeX_HEADER: \usepackage{indentfirst}
-#+LaTeX_HEADER: \usepackage[T1]{fontenc}
-#+LaTeX_HEADER: \usepackage[adobe-utopia]{mathdesign}
-#+LaTeX_HEADER: \usepackage[scaled]{berasans}
-#+LaTeX_HEADER: \usepackage[scaled]{beramono}
-#+LaTeX_HEADER: \setlength{\parskip}{1mm}
+#+AUTHOR: nekosensei
+#+TITLE: steins;gem
+#+OPTIONS: toc:nil date:nil
+#+LATEX_CLASS: book
+#+LATEX_CLASS_OPTIONS: [koma,b5paper,oneside,notitlepage]
+#+LATEX_HEADER: \usepackage{indentfirst}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[adobe-utopia]{mathdesign}
+#+LATEX_HEADER: \usepackage[scaled]{berasans}
+#+LATEX_HEADER: \usepackage[scaled]{beramono}
+#+LATEX_HEADER: \setlength{\parskip}{1mm}
 -----
 
 #+BEGIN_CENTER
 
+
 /Mad Steins;Gate spoilers are contained within./
 
 /Madoka Magica spoilers also contained within./
-
 #+END_CENTER
 -----
 
@@ -30,6 +24,9 @@
 
 * Girl in Blue
 ** Despair in Ergosphere
+
+*/August 2011/*
+
 "Oh no! I just wound you! Don't tell me you're broken," cries the
 hostage in blue, holding her grandmother's pocket watch and saying
 these words for - is it, perhaps, the first time?
@@ -40,40 +37,7 @@ Well. This time things may be a little different than you remember them.
 
 "So not fair. I've taken extra good care of you and everything."
 
-*** Introduction and Poetry
-
-Tradition dictates that we open the work with introspection and
-philosophy. Let us consider a twist, then, on the classic question:
-Can a multiverse of diverging world lines be justifiably called
-infinite?  We can trivially /imagine/ an infinity of different
-configurations, but there is no guarantee that every world which is
-possible is real, let alone reachable.
-
-What is the scale and the scope of the possible? Our own universe is
-quite finely tuned: a mere half-percent adjustment to the strong
-nuclear force would make /carbon/ a precious rare element, and a full
-2% would make stars as we know them impossible; our existence is
-already an exercise in the arbitrary and ridiculous. Surely then we
-ought keep an open mind when it comes to exotic universes. One writer
-I know would have you imagine a spacetime with a positive-definite
-Reimannian metric, where one can stop or reverse the flow of time
-itself by flying about in a clockwork rocket!
-
-In our universe of ridiculous universes, what laws must we find to be
-truly immutable?  What mathematics underlies the last bastion of
-sanity as our imaginary universes teeter on the madness of seething,
-untameable chaos?
-
-Chaos. Order. The progression of order to chaos. Surely, in any set of
-laws one can propose, it must remain a fact that there are more ways
-to be chaotic than there are to be ordered. Statistics, then, must
-rule over all, and the ultimate law of all universes is entropy.
-
-But we must put aside our feeble poetry for now and return to our ship
-of fools. Oh, yes, they chase phantoms as before. What will happen, I
-wonder, if they catch one?
-
-*** Lab Crisis
+----
 
 The hostage has been shot.
 
@@ -154,12 +118,12 @@ then, he
 
 hears the impossible scream.
 
-As a would-be mad scientist, Okabe has of course joked about his
-hostage's screams of terror. Indeed, as he played at the classical mad
-scientist he would gladly pretend to have /many/ opinions on the topic
-of screaming, and also possessed several real opinions on the subject
-of maniacal laughter. As a true friend, though, Okabe in fact knows
-his hostage's real scream from various misadventures together and the
+As a would-be mad scientist, Okabe has joked about his hostage's
+screams of terror. Indeed, as he played at the classical mad scientist
+he would gladly pretend to have /many/ opinions on the topic of
+screaming, and also possessed several real opinions on the subject of
+maniacal laughter. As a true friend, though, Okabe in fact knows his
+hostage's real scream from various misadventures together and the
 occasional horror movie. It is a shrill noise, loud enough, but with a
 tenuous, wavering quality. Would it be strange to say that he
 cherished this scream? for knows of her strength and also her
@@ -175,7 +139,7 @@ brutal, animal rage. The building shakes, a little. The lights flicker
 and go out, fluorescence replaced with a crimson glow of the deepest,
 reddest red.
 
-*** Serenity
+----
 
 "Grandma?" asks the little girl.
 
@@ -210,9 +174,9 @@ The girl in the blue dress pauses a moment.
 
 "Why did Moeka shoot me?"
 
-"Well, it's a long story. Of course, much of it is her fault. She
-shoudn't have done it. But there are others, too. They wanted to use
-her to get at Okabe."
+"Well, it's a long story. Much of it is her fault. She shouldn't have
+done it. But there are others, too. They wanted to use her to get at
+Okabe."
 
 "Oh," says the hostage. "That's sad. I sorta thought we ought to be
 friends."
@@ -222,11 +186,10 @@ friends."
 "What's wrong?" asked the girl.
 
 "There are many people to blame for this, Mayuuri. There's Moeka
-herself, of course, but she never wanted this. There are very bad
-people who used Moeka, too. You can blame them a lot. There are people
-using the bad guys, and they're actually trying to make the world a
-better place, and it might even work. And these people were good
-people, once."
+herself, but she never wanted this. There are very bad people who used
+Moeka, too. You can blame them a lot. There are people using the bad
+guys, and they're actually trying to make the world a better place,
+and it might even work. And these people were good people, once."
 
 The angel pauses.
 
@@ -281,7 +244,7 @@ much. He would throw away his life to save yours, in the blink of an
 eye. He would walk through Hell again and again and again. He would
 ruin his life for you, many times over."
 
-The girl in the blue dress *blushes* and looks away.
+The girl in the blue dress /blushes/ and looks away.
 
 "That's... stupid. I don't want him to die. Even for me. Why would he
 do something like that?"
@@ -310,12 +273,12 @@ The angel nods.
 "I'm afraid I can't /tell/ you, not exactly, or it won't work. But I
 can help you to the start of the path."
 
-*** Lab Observations
+----
 
 /Your wish has overcome entropy/, begins the creature, but Mayuuri is
 already moving, screaming -
 
-*** Lab Aftermath
+----
 
 The floor is doused in red blood, and the room glows with a red light,
 and at the center of it all is Mayuuri, hovering in the air, a foot
@@ -337,7 +300,7 @@ And the mad scientist is now very confused, so he calls out.
 
 "May - Mayuuri?"
 
-The cat-girl's ears twitch, and she turns to face him, with a *hiss*.
+The cat-girl's ears twitch, and she turns to face him, with a /hiss/.
 Okabe jumps back in surprise, and she /pounces/ but not on Okabe, on
 the Organization operative behind behind him, just in front of Daru
 (who is lying on the floor). Now there is another scream, mixed with
@@ -346,8 +309,7 @@ the ugly gurgle of blood.
 Suzuha, to her credit, still has her wits about her, her foot against
 Moeka's neck, but she is agape.
 
-** Entropy Divergence
-*** Lab Evacuation
+----
 
 "I've finally lost it," said Okabe to Daru. The pair of them have
 scrambled over to a corner. "None of this is real, is it. They're
@@ -372,7 +334,7 @@ hurt ..."
 "Well, Meoweka shot me, but I became a magical girl so I could save
 all of you guys!"
 
-Daru stared. "Magical ... catgirl ... mayuuri? M... m..."
+Daru stared. "Magical ... catgirl ... Mayuuri? M... m..."
 
 This would prove to be the impetus to get Kurisu back on her
 feet. "... Daru, I swear, if you say one word that is less than
@@ -390,15 +352,15 @@ scientist. "We'll burn down the lab to destroy the evidence."
 
 "Gather what you can, then," said Suzuha. "I'll go hot-wire a car."
 
-*** Escape
+----
 
 "We've met online before, you and me," said Suzuha, loading the
 partially disassembled microwave into the hatchback. "I post as John
-Titor. I'm a time traveller."
+Titor. I'm a time traveler."
 
 "I hid my posts in plain sight," revealed the mad scientist...
 
-*** Escape Crisis
+----
 
 Suzuha drove the car and explained at the same time.
 
@@ -407,7 +369,7 @@ war. The Emergency Defense Committee which replaces them immediately
 began to stamp out dissent. Democracy is nothing but a memory. People
 sleepwalk through their lives, completely devoid of hope. Opposition
 is treason... and treason is death. At the heart of the Council's
-reign of terror is a shadow organisation, the true world government,
+reign of terror is a shadow organization, the true world government,
 pulling the strings. Their ultimate trump card: the time machine.
 Their research arm is known to the public as SERN."
 
@@ -429,7 +391,7 @@ They passed a van, and turned the corner.
 
 "MSY Deliveries?" asked Daru. "But they're all over town..."
 
-Suzuha nodded. "One of the organisation's oldest fronts. They do real
+Suzuha nodded. "One of the organization's oldest fronts. They do real
 deliveries, but there are ties to the Yakuza. I'll take a detour, make
 sure they can't follow us. Play it cool."
 
@@ -442,22 +404,23 @@ into reverse.
 
 "totally screwed we're /totally screwed/."
 
-*** Chase
+----
+
 "Maybe we can negotiate! We have a hostage!" Daru looked back to the
 trunk, where Moeka was tied up.
 
-"NO!" said Mayuuri. "No hostages. That's _my_ job and I'm not letting
+"NO!" said Mayuuri. "No hostages. That's /my/ job and I'm not letting
 you give it to anybody else. Besides, it's not really her fault."
 
 "Not her fault?" said Kurisu, from the front seat. "How - I mean, I
-don't like the idea either, but - Mayuuri, she _shot_ you! By all
+don't like the idea either, but - Mayuuri, she /shot/ you! By all
 rights you should be dead right now, and -"
 
 "No buts. You can tie her up for meow to be safe, but no being
 mean. She's not the bad guy here, she's just ... very confused.
 Besides, they probably don't really care if she gets hurt."
 
-Suzuha *squealed* around the corner, and Okabe slammed into
+Suzuha /squealed/ around the corner, and Okabe slammed into
 Mayuuri.
 
 "Hey, careful!" said Daru.
@@ -519,9 +482,9 @@ roof. The car, somehow, kept driving - accelerated, even.
 Okabe's mind reached for something to say: an obscure curse, an appeal
 to Norse gods, a plea in the name of Science. He found nothing.
 
-A mid-air somersalt later, the girl was on the roof.
+A mid-air somersault later, the girl was on the roof.
 
-*** Escape End
+----
 
 "Everyone sit tight," said Mayuuri. "I'm going to try and talk to
 her."
@@ -536,7 +499,7 @@ onto a bridge over the river.
 voice came through the glass. "You guys mind stopping?"
 
 "You won't take us alive!" exclaimed Suzuha, pulled the steering
-wheel *hard*
+wheel /hard/
 
 the girl flew off the roof and onto the deck of the bridge, but the
 rolled over, out of control, on its roof, back upright for a moment
@@ -548,66 +511,13 @@ side of the bridge, they
 
 were falling and
 
-"Okarin!" cried Mayuuri, reached for his hand and
+"Okarin!" cried Mayuuri, reached for his hand - grabbed it and
 
 *splash*
 
-*** Lab Observations 2
-
-Ordinary observations do not usually merit the invocation of FTL
-communications before being processed and summarized: it's simply
-inefficient, and physics is a harsh mistress. Waste not, want not!
-However, even a routine contract report (message format TS34507012XX)
-goes out directly over FTL channels, as a powerful channel to timeless
-hyperspace is already open in these circumstances.
-
-Like other FTL message formats, a contract report opens with a full
-four-dimensional reference frame coordinate address. This is a
-variable-length code; in our present universe, some 13 billion years
-young, it only takes a couple of kilobytes. The FTL communications
-node itself, does not experience time; the code in the spacetimestamp
-alone preserves the ability to sequence messages over the lifetime of
-the universe and construct a reference to the data without the expense
-of an infinitely complex computation.
-
-In human teminology, the report went something like this.
-
-"Candidate «Shiina Mayuuri» was identified by a sudden potential spike
-on the order of 298\rho coincident with an assault on the building which
-she occupied. Observation was immediately dispatched, discovering an
-organized crime group. The candidate was confronted with violence by
-noncandidate «Kiryu Mokeka» in association with the attackers. The
-activation of this emotional bond resulted in an increase in candidate
-potential to 380\rho as candidate's body was damaged by small arms
-fire. Candidate's body was examined by an associate, ineligible
-«Rintarou Okabe», resulting in a potential spike to 701\rho. Violent
-confrontation was escalated by noncandidate «Amane Suzuha?» with no
-impact on potential, providing an opening in which candidate could be
-approached. Due to the anticipated potential harvest and the forecast
-of imminent death of candidate's body, an expedited telepathic
-approach was applied with level 3 safeguards disabled, consistent
-with standards for these candidates."
-
-"«!!!» Candidate interrupted telepathic preamble with nonverbal wish
-response expressing concern for her friends. The ensuing resonance
-cascade resulted in the collection of realized potential in excess of
-the 1e6\psi measurable by instruments as configured. Recommend an audit
-to confirm full integrity of Node 1 at earliest viable opportunity."
-
-A full audit would cost most of the potential collected from a very
-weak contract - the karmic potential stored in the node being
-unsuitable for this this sort of analysis. And the incubator would
-keep the channel open for a while, incurring additional expense. But
-for over 100,000\psi, and understanding besides? A bargain.
-
-A few seconds later, he added the first follow-up note. "Expedited
-soul gem extraction was necessary. Follow-up counselling will be
-provided as feasible and further monitoring of anomaly «Shiina
-Mayuuri» and her associates will continue. If sympathetic potential
-resonance promotes more associates of anomaly «Shiina Mayuuri» to
-Candidate the rewards may be substantial."
-
-*** Lab Aftermath 2
+----
+for a moment all Okarin saw was /red/
+----
 
 The floor is doused in red blood, and the room glows with a red light,
 and at the center of it all is Mayuuri, hovering in the air, a foot
@@ -618,7 +528,7 @@ the same red as the blood on the floor.
 Okabe has seen Mayuuri wear red before. It wasn't even that long ago.
 What he doesn't understand is why he's seeing it again.
 
-The cat-girl's ears twitch, and she turns to face him, with a *hiss*.
+The cat-girl's ears twitch, and she turns to face him, with a /hiss/.
 Okabe jumps back in surprise, and she /pounces/ but not on Okabe, on
 the Organization operative behind behind him, just in front of Daru
 (who is lying on the floor). Now there is another scream, mixed with
@@ -627,14 +537,15 @@ the ugly gurgle of blood.
 Suzuha, to her credit, still has her wits about her, her foot against
 Moeka's neck, but she is agape.
 
-*** Lab Evacuation 2
-"I don't get it," said Okabe. He was less panicked than before, but
-still shaken. "How? It doesn't make sense. Have I actually gone mad?
-We were in the car ..."
+----
 
-Daru looked at him funny. "Dude... pull it together. You're kinda
-scaring me, and - I mean - given what just happened that takes some
-doing."
+"I don't get it," said Okabe. He was less panicked than before, still
+a little shaken, but ... it was just surreal, at this point. "How? It
+doesn't make sense. Have I actually gone mad?  We were in the car ..."
+
+Daru looked at him funny. "Dude... pull it together. You're way too
+calm, and you're kinda scaring me, and - I mean - given what just
+happened that takes some doing."
 
 The red light faded, and there was a familiar giggling.
 
@@ -651,7 +562,7 @@ hurt ..."
 "Well, Meoweka shot me, but I became a magical girl so I could save
 all of you guys!"
 
-Daru stared. "Magical ... catgirl ... mayuuri? M... m..."
+Daru stared. "Magical ... catgirl ... Mayuuri? M... m..."
 
 "... Daru, I swear, if you say one word that is less than perfectly
 appropriate I will relieve you of your spine. Is that clear?"
@@ -672,7 +583,7 @@ monitor."
 
 "... wait, what?" Suzuha froze.
 
-"That's right. I know your game, future-girl. You're a time traveller
+"That's right. I know your game, future-girl. You're a time traveler
 from the year 2036. Did you really think you could hide your online
 identity from the great Houin Kyouma??!? Your operational security is
 no match for my towering intellect! You're just lucky that we're on
@@ -681,68 +592,87 @@ the same side."
 "/Okarin!/" said Mayuuri. "Be /nice/."
 
 "... right, sorry. The car! We shall converse while we are en route!"
-** Redemption Point
-*** Curiosity: Denial
+
+** It Is An Accursed Business
+
+*/July 2009/*
 
 The transfer student was trying to get out of an awkward conversation.
 
 "Are you protecting her? Just - let me know, and I'll let the matter
 drop."
 
-It was a hot July afternoon, and as of yet, just a little more than a
-year before the lab break-in, and several months after she had
-transferred in. School was letting, and she'd gone up to the roof,
-more to for a moment of quiet reflection than anything else, but it
-made a fine place to look out over the city for signs of miasma. The
-weather this time of year usually meant that she had it to herself, as
-well, but today was clearly an exception.
+It was a hot July afternoon, several months after the transfer student
+had transferred in. School was letting out, and she'd gone up to the
+roof: more to find a moment of quiet reflection than anything else,
+but it made a fine place to look out over the city for signs of
+miasma. The weather this time of year usually meant that she had it to
+herself, but today was clearly an exception.
 
-"I told you before, I don't know anything," she told the busybody.
+"I told you before, I don't know anything," she replied.
 
-"Yes, well, you were lying then and you're lying now."
+"Yes, well, you were lying then and you're lying now," observed the
+busybody, ever-so-politely.
 
 The transfer student closed her eyes, and took a deep breath. Maybe if
 she ignored the problem it would just go away.
 
-"I'm sorry, but I know it's true."
+"I'm sorry, but I know it's true," insisted the interloper.
 
-The transfer student fiddled with her ribbon.
+In lieu of a reply, the other girl fiddled with her ribbon.
 
 "Please. I know ... I know it's probably my fault, but she was ... she
 was my best friend." She looked down at the ground - struggling to
 maintain her composure.
 
-The other girl stopped fidgeting. /Damn it/, thought Homura. /The
-worst thing is, she only knows half of it. Two best friends, lost
-forever./ It was, perhaps, one of the saddest parts of the story. And
-yet...
+Homura stopped fidgeting. /Damn it/, she thought. The worst thing is,
+she only knows half of what she was missing: not one, but /two/ best
+friends, lost forever. It was quite sad.
 
-"You're right, of course," said Homura. "And you /were/ her friend,
-and that means something to me, and I do not blame you for asking.
-In fact - I'm sorry for brushing you off. I - I should have said
-something. It's... it's hard for me too."
+She sighed quietly. When considered that way, well... she really
+should probably say /something/ about it. /It's probably what she
+would have wanted,/ considered Homura. /Actually, she would probably
+try to have us be friends with each other/.
+
+The idea brought a wave of nostalgia. They /had/ been friends before.
+Not for long, and long ago, but it wasn't a bad timeline, really,
+before Oriko had messed everything up. How many years had it been?
+Best not to think about that one too hard. A meaningless question in
+many ways. Forget about it.
+
+But then again, if Hitomi /was/ a friend, well, then, she's someone
+worth protecting.
+
+/Okay. Protection. I've still got this./
+
+"I'm not protecting her. I'm protecting /you/. She was my friend too,"
+said Homura, deliberately opaque in the phrasing, "and ... well, I'm
+sorry for brushing you off, but, it's kind of hard for me to talk
+about it."
 
 Hitomi looked up at her with an uncertain expression, not quite sure
-what to thing. The legendary, impenetrable facade of the cool, calm,
-collected Akemi-san, even for a moment, showing a crack?
+what to think. Akemi-san, always cool and collected, was shaking -
+just a little - her voice unsteady.
 
-"But, the thing is ... that makes it even more so. You don't want to
-know. No good can come of knowing. It is an accursed business and you
-should have no part of it. Do not seek to understand. It has brought
-despair and ruin to many girls before her, and it will will not stop
-with her. One day, it will be the end of me, as well."
+"But, the thing is ... that difficulty ... it's all part and parcel of
+the reason I shouldn't tell you. Shizuki-san, please, if you listen to
+me at all, remember this. You don't want to know. No good can ever
+come of knowing. It is an accursed business, and you should have no
+part of it. /Do not seek to understand./ It has brought despair and
+ruin to many girls before Sayaka-chan, and it will not stop with
+her. One day, it will be the end of me, as well." She took a deep
+breath. It came out ... more emotional than she had planned.
 
-Hitomi blinked. "So she /is/ dead, then."
+Hitomi blinked. "So she is dead, then."
 
-"It was the night she disappeared, of course, the night of the
-concert - not even far from the concert. Her corpse? Annihilated. If
-it helps, I suppose, you should know that she went out trying to do
-the right thing, trying - /hell/, trying to be a true ally of
-justice. An exercise in futility, of course, but she was never one to
-let that stop her. Stupid girl, but a brave heart... I'm sorry. I'm no
-good at eulogies. But you should think well of her." /And in the name
-of Kaname Madoka-chan, don't try to follow in her footsteps/, she
-added mentally.
+"It was the night she disappeared, the night of the concert - not even
+far from the concert. Her corpse? Annihilated. If it helps, I suppose,
+you should know that she went out trying to do the right thing,
+trying - hell, trying to be a true ally of justice. An exercise in
+futility, but she was never one to let that stop her. Stupid girl, but
+a brave heart... I'm sorry. I'm no good at eulogies. But you should
+think well of her." /And in the name of Kaname Madoka-chan, don't try
+to follow in her footsteps/, she added mentally.
 
 "Oh." Hitomi closed her eyes, reflecting. "That's ... thank you,
 Akemi-san."
@@ -753,33 +683,39 @@ Akemi-san."
 little self-centered, but, I was sure, I was almost /completely/ sure,
 that it was about Kamijo-chan, and that it was all my fault."
 
-/Of course it's was about Kamijo, and it/ was /your fault/, thought
-Homura. /But what do you even say to that?/ She reflected a moment.
+/It/ was /about Kamijo, and it/ was /your fault/, thought Homura. /But
+what do you even say to that?/ She reflected a moment.
 
 "It was inevitable," she finally said, just a moment too late.
 
 "... But it was still my fault."
 
-Homura inhaled. "It -"
+Homura inhaled. "It's not -"
 
-"It's okay. You don't have to pretend for my sake, or out of
-politeness."
+"It's okay," interrupted Hitomi. "You don't ... you don't have to
+pretend for my sake, or out of politeness."
 
 /Again/, thought Homura. She'd paused too long, and now she was doing
 it /again/, still unsure of what to say. /Am I just that easy to
-read? Or am I out of practice? Wow, Homura. Two hundred months of
-the same conversations and you've forgotten how to talk to real
-people... Or ..  no, when you get down to it, I suppose that was
-something you never actually learned to begin with./
+read?/ /Or am I out of practice? Wow, Homura./ /Two hundred months of
+the same conversations and you've forgotten how to talk to real live
+people.../ Or ... no, when you got down to it, that was something she
+never actually learned to begin with.
 
 "It... it's okay, I'll ... I'll just leave you be, Homura-san."
+
+"Hitomi-san," she called -- but the other girl was already running
+off.
+
+----
 
 Hitomi managed, somehow, /not/ to cry until she had made it to her
 locker, and even then only for a bit. At home, though, safely cocooned
 in a pile of blankets and pillows, it was another matter.
 
-*** Before the Hunt
-"Well." said Mami-senpai. "What's done is done, I suppose. At the rate
+----
+
+"Well," said Mami-senpai. "What's done is done, I suppose. At the rate
 things are going, it's the last of our problems if she finds out
 more. And don't be too hard on yourself. It's not a bad thing to reach
 out and try to make a friend, you know. It's pretty lonely these
@@ -788,24 +724,26 @@ days."
 The other girl pondered. It /was/ pretty empty these days, but she
 liked it better empty. Mami always had a bad habit of putting on airs
 to impress the less experienced girls - even Kyoko, if only as a
-matter of habit. Now, though, there was no need to play at being
-anything but cynical old veterans.
+matter of habit. Now, though, there was no reason save the force of
+habit to play at being anything but cynical old veterans. It was a
+small comfort.
 
 Still, it wouldn't do to say so out loud.
 
-"I did my best to warn her away, at least," said Homura. A moment
-later, she started to laugh.
+"I did my best to warn her away, at least," said Homura.
+
+A moment later, she started to laugh.
 
 "What?"
 
 "Oh, just - warning her away. Knowing my luck, that means she'll
 contract in a month, /maximum/."
 
-"/You/", said Mami, "are too hard on yourself, as usual. You're not so
+"You," said Mami, "are too hard on yourself, as usual. You're not so
 unlucky as you say you are. In combat, you're about as good as I am,
 and if I may say so myself, that is really /very/ good."
 
-"Being good in fight means you /don't/ leave /anything/ to luck."
+"Being good in a fight means you /don't/ leave /anything/ to luck."
 
 "That .. is true enough," noted Mami.
 
@@ -817,7 +755,8 @@ wandering tonight?"
 
 Homura shrugged. "In this heat? Somewhere with a beach, maybe."
 
-*** Heresy Rendezvous
+----
+
 The girl with red hair was not very good at wandering in the
 wilderness. For a week or three she had managed well enough, but one
 day after a mean little fight with some demons (and some girls who
@@ -853,8 +792,8 @@ across the way, a little out of place. Huh.
 
 The front door had fallen in last visit, hinges detached from the
 damaged frame. It lay there on the ground, unmoved. This was only
-natural, of course, but still managed to unnerve her. It didn't
-feel right. Or maybe...
+natural, but still managed to unnerve her. It didn't feel right. Or
+maybe...
 
 Hmm. Maybe it didn't feel right because someone else was here.
 
@@ -881,12 +820,24 @@ with, that is.
 "Do you suppose God is real?" asked the girl in white. "Heaven? I
 wonder, sometimes. I could never see what comes after the end."
 
-/Oh/, thought Kyoko, stopping in her tracks, tensing. /It's *her*. The
-one with the bucket for a hat./ She'd heard of Oriko more than seen
-her - usually she'd stay well away from combat, and it was her team
-full of murder-psychos that they'd meet. And it was probably her
-driver who had parked out in front, so, she might have brought her
-team, which means this could be an ambush, and -
+/Oh/, thought Kyoko, stopping in her tracks, tensing as she recognized
+the figure. /It's/ her. /The one with the bucket for a hat./
+
+Kyoko had heard of Oriko more than seen her - usually she'd stay well
+away from combat, and it was her team full of murder-psychos that
+they'd meet. It was really annoying, because Oriko had precognitive
+powers, so her team would always know /exactly when/ another group was
+overwhelmed and would swoop in, steal your hard-earned grief cubes,
+and occasionally stab magical girls in the face. Hard to sneak up on
+someone like that, easy to be ambushed. Through some good fortune, the
+Mitakihara Four only had occasional skirmishes, but the trail of
+bodies was legendary. Best to stay away, unless you didn't know any
+better, which is probably how that little girl ended up with the
+group...
+
+And given it was probably her driver who had parked out in front, so,
+she might have brought her team, which means this could be her ambush
+right here, and -
 
 "Kirika's outside, but I asked her to stay put. I didn't come here to
 fight you, Kyoko."
@@ -897,15 +848,15 @@ Kyoko exhaled. "What, so you came to talk religion?"
 perspective."
 
 "Hmh. You want unique, you should go back to Mitakihara and talk to
-miss Akemi."
+Akemi-san."
 
 "Yes, well, I'm afraid she doesn't trust me. Apparently I hurt one of
-her friends in a previous life, I /think/. She's not very forthcoming
-about it, though. She never is"
+her friends in a previous life, I think. She's not very forthcoming
+about it, though. She never is."
 
 "I don't exactly trust you either."
 
-"I have a bad habit of /unsettling/ people, I know." She reached into
+"I have a bad habit of unsettling people, I know." She reached into
 the back of the pew, pulling out a slightly moldy missal, opened it to
 a page in the middle, and began to read. "Death with life contended;
 combat, strangely ended. Life's own champion, slain, yet lives to
@@ -916,7 +867,7 @@ resting. Christ, my hope, has risen."
 
 "You came on Easter, didn't you?"
 
-She had, of course.
+She had.
 
 "... what's it to you?"
 
@@ -924,7 +875,7 @@ She had, of course.
 church for far less than what you have been through."
 
 "Yeah, well, if you ask the church, we left a while /before/
-everything went down.
+everything burned to the ground."
 
 "The faithful heretic. A minor miracle. Even at the end of her rope,
 she cries out, 'Dear god, please just let me have one happy dream.'"
@@ -944,7 +895,7 @@ windows to be more colorful, with lots of angels on them, but Dad was
 skeptical of those kinds of icons - and, of course, it was money,
 which we never had, not until the end."
 
-Oriko nodded. "I guess I hadn't considered the theologial implications
+Oriko nodded. "I guess I hadn't considered the theological implications
 of architecture."
 
 "Oh, you can tell a lot about a church from that. I did a big report
@@ -960,7 +911,7 @@ just meet in warehouses, and oh my god why am I telling you -"
 "It's okay. I'll listen."
 
 "You know you /really/ don't live up to your reputation as the queen
-of the psycho-crazies, miss Mikuni," said Kyoko, just a /little/ bit
+of the psycho-crazies, Mikuni-san," said Kyoko, just a little bit
 exasperated.
 
 "Well, I can't say you're exactly the picture-perfect model of a
@@ -970,230 +921,421 @@ For the first time in well over a year, laughter echoed through the
 church. "Yeah. Yeah, I was a real good little choir girl back in the
 day, wasn't I? Almost as sharp a dresser as you, if I'm honest."
 
-*** Heresy Connection
+----
 
 She wasn't sure how long they talked, but Oriko left her with a bag of
 fresh apples and an open invitation to drop by next time she was in
-town. "No need to call ahead, of course," she had noted. "Stop by for
-dinner, maybe."
+town. "No need to call ahead," she had noted; "stop by for dinner,
+maybe?" Okay, the idea was a little creepy.
 
-Perhaps she /would/ visit in a while. Still, maybe give it a few days,
-wait until the middle of the week. Besides, in this weather, she ought
-to take some time and visit the beach.
+Perhaps she would visit in a while anyway. Still, not too soon; maybe
+give it a few days, wait until the middle of the week. Besides, in this
+weather? Might as well take a little side trip and visit the beach.
 
-***  Regret and Entropy
+----
 
 /make a contract with me/, said the bunny - cat - thing to the
-emotional wreck, /and/
-** Subversion Point
-*** Curiosity: Engagement
+emotional wreck, leaping onto a very elaborate canopy bed, /and/
 
-It had started out as a rather funny office lunch.
+** I'm Taking You Away to my Magical Realm
+*/July 2009/*
 
-"Is this a bloody joke?" asked Dr. Ross.
+"Oriko-onee-chan!!!" The little girl in green ran through the hall,
+and wrapped her arms around Oriko.
 
-"An insult," suggested Dr. Luciano.
+"Ah, Yuma-chan!"
 
-"Well fine, I'll take it then," said Dr. Smith.
+"You're back!"
 
-"And dirty your hands?" asked Dr. Luciano.
+"Mmm-hmm. Right when I said I'd be back, right?"
 
-"Please. While the purchase of a lottery ticket is no doubt an
-irrational act with a net negative expected value, a €5 scratch off
-ticket most likely has an average value of ... oh, I don't know, at
-/least/ two euros, maybe €2.50? Easily worth a few moments' of time
-with one's esteemed colleagues." He removed a coin from his pocket,
-a €2, and held it up. "How appropriate."
+Yuma nodded. "Right. It's exactly when. And Kirika is back too."
 
-"It's the principle of the thing," said Dr. Luciano. "A question of
-intellectual conistency. To play at the social sciences, it is a
-question of virtue signalling. Is your reputation as an intellectual
-worth no more than the coins in your pocket?"
+"Yep. She's gone to her room already."
 
-"Well, bloody hell," said Dr. Smith. "Instant prize, €500."
+"Is Hinata-san back yet?" asked Oriko.
 
-"You can't be serious," objected Ross.
+"Don't you /knoow/ if she's back?" asked Yuma.
 
-"In the interest of furthering international fraternity and the
-brotherhood of science, I hereby donate this ticket to the Super
-Proton Synchrotron team party fund," declared Smith.
+Oriko shook her head No. "I only ever know things that are /going/ to
+happen, silly. I don't know everything that's going on right now."
 
-"We have a party fund?" asked Ross.
+"Well," said Yuma, taking a deep breath, "Aina-senpai got back, and,
+and, Miroko-senpai did some magic in the hallway and trapped her in a
+giant ice cube and she said, she said, I've got you now, and, I'm
+taking you away to my magical realm, and, I'm going to have my way
+with ..."
 
-"We do now." He picked up the envelope that it had arrived in. "Now,
-the question is, who would have thought send such a thing?" The
-envelope was a crisp white, a good quality paper, hand lettered
-address in all capitals, crimson red ink. "What on Earth is this
-postmark? China?"
+"Oh my," interrupted Oriko, "I hope you stayed out of their way;
+that's ... a little bit of trouble."
 
-"Nippon. Look at the stamp," pointed out Luciano, "and I think it is
-rice paper, the envelope."
+"Yes! Trouble! The ice cube melted, and, there's a big, big, very big
+puddle, alll over the floor."
 
-"Who on Earth sends a scratch-off Euro lottery card to Switzerland
-... via Japan?" asked Ross.
+"Goodness." said Oriko. "That won't do either. I hope you were on
+better behavior yourself, though."
 
-"Have you considered the possibility that it was the work of aliens?"
+"Mmm-hmm!" nodded Yuma, energetically. "I missed you though. Hey did
+my magic work?"
 
-For about a week, aliens invading Earth by sending lottery tickets via
-Nippon Post was a running joke. Then on Monday, they got another letter.
+"It worked perfectly, of course." She scooped the little girl up in
+her arms, for a hug. "You're a magical genius, didn't you know?"
 
-"Well this is nice," said Dr. Smith. "We can have a /big/ party."
+Yuma stuck out her tongue. "You keep saying that, but it's really
+really hard."
 
-"Yes, but look," said Ross, "it's addressed to the Super Proton
-Synchrotron team, /Extraterrestrial Activities Unit/."
+"Mmm-hmm. Hard work is behind every paragon of excellence in this
+world. Hard hard work. You're good at that, and you're really smart,
+and you have a /beautiful/ imagination."
 
-"Aha. Someone from the office, then. How droll." He extracted a small
-Swiss knife from his pocket, and set about the business of opening.
-"What have we here?" he inquired, after a moment.
+Yuma made a face. "Plus I'm super cute."
 
-"Ah, that is the receipt that you get when you purchase the ticket,"
-said Luciano.
+Oriko nodded. "Plus, you're super cute. And ticklish."
 
-"Oh, right. You'd forget I don't play these regularly, listening to
-the talk around here." He extracted his phone from a pocket. "Does
-anyone know how to check the numbers on one of these?"
+"Noooo!" squealed Yuma. "No tickles."
 
-"Slow down," said Ross, "the draw isn't until tomorrow."
+"Okay, no tickles. Do you want to pick our new story tonight?"
 
-"How can you tell? Oh, it's on the receipt."
+"No, you pick!"
 
-*** Curiosity: Overload
-"Sweet mother of Jesus," said Luciano. "That's one hell of a party."
+"Oh, okay." Oriko pondered a moment, scanning the shelves. "I have
+just the thing. /The Secret Garden/."
 
-It was a later evening than most in the office (with the exception of
-certain experiments) and Dr. Felicia Jannsen, notorious wet blanket -
-and programme director - noted the small crowd on her way out. "If you
-boys want a party," she said drily, "you can book a proper venue, but
-you're not having it in any of my labs."
+----
 
-"I don't think that'll be a problem," said Smith. "That's like
-... what, /twenty thousand euro?/"
+Homura was having a bad morning when the delinquent showed up.
 
-"That's five numbers matched," noted Ross, "but neither of the Lucky
-Stars. Looks like Lucky Dip, registered trademark, wasn't so lucky
-after all. Should have been 3 and 12."
+"How's it hanging, homu-slice?"
 
-"What? You played the lottery? And /won/?" asked the director.
+"In the interests of group harmony, I am going to pretend I didn't
+hear that, Sakura-san."
 
-"Never in my life!" said Luciano, and explained the circumstances, the
-mysterious letter.
+It was early in the morning, Kyoko was in the school uniform that she
+wore when she was pretending to have business on campus.
 
-Dr. Jannsen blinked, put down her bag, and pulled out a pile of mail.
+"Aww. You're just no fun anymore, Homura."
 
-"Sweet mother of Jesus," said Luciano. "Another one?"
+"We missed you these past weeks," said Homura, as flatly as ever. "We
+had speculated that you might have been at the beach."
 
-"You already used 'sweet mother of Jesus'," said Smith. "I'll thank
-you to mix it up a little."
+"I - wait, now how'd you know that?"
 
-Inside the envelope was a simple sheet of plain paper, a short message
-in crimson red: the numbers three and twelve, surrounded by a star
-outline, and "SORRY", once again in all caps.
+"It is no use, Sakura-san. We have your number."
 
-"Well that's quite nice," said Ross. "Very symmetrical."
+"Are you saying I'm predictable?"
 
-"Is this some kind of a joke?" asked the director.
+"In the interests of group harmony, I would prefer to phrase it in a
+manner that underscores the strength of our working relationship."
 
-"... A threat," suggested Luciano.
+"Hey, I'll have you know that I do lots of unpredictable things."
 
-"Who knows about this?" asked the director.
+"I'm quite sure. Will you be staying with us for a while, then?"
 
-"Well, we were joking about the last ticket all week, so a lot of
-people, but, ah..."
+"I guess? I mean I haven't -"
 
-"Right," she said in a deathly calm voice, "if anybody asks, this
-ticket was a dud. Got it? This /could/ be a security matter."
+"Enjoy your stay, then. We'll be starting the hunt from the usual
+spot. Let us know in advance if we should wait for you."
 
-"You're thinking Russia or whoever has an agent in Euro Millions?"
+Kyoko said nothing.
 
-"I don't know. Send any more of these" - she held up an envelope -
-"directly to me. If it turns out it's nothing, you can have the
-party. I'll deal with it tomrrow."
+A few seconds passed.
 
-*** Curiosity: Blackmail
-On Wednesday morning, shortly before she was going to meet with the
-head of security, an express overnight envelope arrived. Inside was a
-similar rice-paper envelope, and inside that were the co-orodinates,
-dates, times, and magnitudes of several small earthquakes (2.1 to 3.8)
-which had not yet happened. On a separate sheet of paper, were the
-closing stock prices of the Dow Jones Industrial average, due for late
-in the evening.
+"... I must admit, you have surprised me here, Kyoko. I would have
+predicted another complaint about my attitude."
 
-The director cancelled her meetings and instead spent the day pulling
-her hair and watching a USGS feed with the Super Proton Synchrotron
-leadership team. When the regular mail arrived in the afternoon, with
-another rice paper envelope, no one wanted to be the one open it. They
-drew straws, using pencils.
+"Yeah, well, in the interest of group harmony, um, I suppose I can cut
+you some slack."
 
-"Fucking hell," said Smith. "It's like one of those Internet crazies
-come true. What a nightmare."
+"Thank you. I appreciate it. Despite the facade of a cheery demeanor
+that I present the world, I am not having a good morning."
 
-"Ah, but take solace, my friend," said Luciano. "Our clarivoyant
-emmisary at least has the good sense to contact the world through its
-/scientific/ leadership, and to lead with the evidence! We are clearly
-dealing with greater wisdom than fools posting on the Internet."
+"Right," said Kyoko, pausing. "Anything I can do to make it better?"
 
-"Imagine if he'd gone to the Americans," said Ross.
+"I'd greatly appreciate just talking business for the time being."
 
-"By God's hooks," said Luciano, "that /would/ be a disaster."
+"Right. Well, I'll meet you guys at sundown, I guess? I'm a little low
+on cubes. Not badly, though. Will grab dinner ahead of time."
 
-"... by which, what now?" asked Smith.
+"Mmm-hmm."
 
-"It is as you requested, I am attempting more variety in my oaths."
+"Hey, speaking of dinner, how's Team Psycho treating you of late?"
 
-"Stop it," said Dr. Jannsen. "I have enough of a headache already."
+"Better than expected. They're busy bothering everybody else."
 
-A moment passed before anyone spoke again.
+"Oh, that's... good, I guess."
 
-"So what now?" asked Dr. Smith. "What is the ethical thing to do in
-this situation? Our responsibilities to humanity? To the project?"
+"What does that have to do with dinner?"
 
-"You know what? I just want to see some new physics out of it," opined
-Ross. "That's what we're supposed to be here for. Isn't it?"
+"Oh, funny story. I went by my old place in Kazamino before the beach,
+and who do you think I run into?"
 
-"We've yet to see these proposed technical parameters," noted the
-director. "We'll decide tomorrow."
+"A takoyaki vendor?" asked Homura.
 
-*** Curiosity: Singularity
-"Well bloody hell, that's ... that's genius. It /might/ very well just
-do it," said Ross, holding up an engineering diagram from a stack.
+"Nope! None other but the elusive Mikuni Oriko, herself, in the
+flesh. Just sitting around, waiting to talk to me."
 
-"It'll mean /months/ of downtime!" objected Smith.
+Homura took a moment to consider that. "This does not bode well."
 
-"What is all the rest?" inquired Luciano.
+"No, it all turns out okay. We talk for a while, she invites me over
+to dinner, and of course because it's Oriko she's all like 'just come
+whenever, I'll be expecting you, because FORESIGHT.' Anyway, it was
+actually a real nice little talk."
 
-"Looks like about five pages of... control software?" asked Ross. "In
-pen?"
+"What did you talk about?"
 
-"... Hey, look at this." said Dr. Smith. "Notice anything funny?"
+Kyoko grinned. "Architecture."
 
-"How do you mean?" asked Ross.
+"No, seriously."
 
-"If I didn't know better, I'd swear that you wrote this code. Look at
-the gratuitous use of 'tap'. You're the only one in the office with
-this kind of monad obsession."
+"Seriously architecture. Didn't predict that one, did you?"
 
-"It's a question of mathematical purity - " said Ross. "Ah. Yes.
-I suppose I see what you mean."
+Homura tilted her head a bit to the side.
 
-"What did he say in the letter?" asked the director, and reached for
-the earlier letter. "... foreknowledge has limits: in particular,
-myself. Lottery numbers and lists of facts are easy to copy from the
-future, but I am restricted by my ability to comprehend and reproduce
-the material. Thus I do /wish/ to enlist your assistance... et cetera."
+"Religious architecture, if it helps. A comparative study. She got me
+to totally nerd out; it was awesome."
 
-"Bloody hell," said Ross, "My work has been plaigarized, and I haven't
-even done it yet."
+"Oriko is bad news," said Homura, carefully, "and is probably up to no
+good. If I were you, I'd stay away."
 
-"You have already used 'bloody hell' this conversation," noted
-Luciano. "What is this foul stench in the air? Is it, perhaps,
-hipocrisy?"
+"And what makes you the big expert on who's such bad news?"
 
-"Gentlemen. What's your analysis?" demanded the director.
+"We ... have a history. It's not particularly pleasant. I prefer not
+talking about it."
 
-"Well, I can't be completely sure from just a few sketches," said
-Ross, "but if this pans out, we could kiss the tera-electron volt
-regime goodbye, and that's just with the current facilities. Five
-years and an upgrade to the main loop? We could be on the other side
-of the desert and start looking at grand unification energies."
+"Sure. I suppose I won't challenge that.  /In the interest of group
+harmony./"
 
-"Bloody hell," said Luciano.
+"Thank you. I appreciate it."
+
+"But I'm going anyway."
+
+"Why?"
+
+Kyoko signed. "Put yourself in my shoes for a minute, Homura. I mean,
+living outside the system is an okay deal for a magical girl. You've
+got lots of extra time to hunt, you can do whatever you want, it's
+/fun/. But you know what I really miss sometimes? A decent homemade
+meal. If there were a way to turn grief cubes into cash, I'd dine out,
+but I've got enough problems already. I don't want to be one of those
+girls who gets caught emptying ATMs and runs out of cubes in jail."
+
+"Kyoko," said Homura, "I realize that this may sound a little
+far-fetched, but I do actually care about your well-being. The Southern
+Group is far more dangerous than the police, and Oriko is the worst
+of them. Visit at your peril."
+
+"I'm touched," said Kyoko, and only a little sarcastically. "Well,
+I'll see you tonight, then, Akemi-san."
+
+"Farewell, Kyoko."
+
+Homura joined the crowd heading into class. It was annoying; she'd
+actually arrived a little earlier today, in hopes of avoiding people.
+Especially people like ...
+
+"Homura-chan!" called a voice.
+
+/Hitomi is a friend. Madoka would want it that way/, she reminded
+herself, taking a moment to breathe.
+
+"Good morning, Shizuki-san. I'm sorry I can't talk, I'm running a
+little late," said Homura chan. /Well, she's doing better/, thought
+Homura.
+
+"After school, then?"
+
+"I'm afraid I have plans. Another time, maybe," replied Homura,
+turning to avoid her.
+
+/Please, Homura-chan,/ thought Hitomi. /It's important./
+
+On the steps to the school, in front of a crowd of a hundred, Akemi
+Homura, the calm girl, the coordinated girl, prefecture champion of
+the pole vault, spun around too fast, tripped down the stairs, and
+planted her face on the concrete sidewalk.
+
+A cry went out from the crowd.
+
+"Whoa!!"
+
+"What the -"
+
+"Is she okay? Call the nurse!"
+
+Hitomi blinked several times. "Akemi ... san?"
+
+"Why... just..." She propped herself up.
+
+----
+
+/Mami. Can't handle this. Send help./
+
+/What? What's wrong?/ she replied.
+
+"... just /wiped out/ on the stairs!" said a student, rounding the
+corner.
+
+/Front of school. Our friend, Shizuki Hitomi./
+
+/Oh my goodness, is she all right?/ asked Mami, already hurrying in
+that direction.
+
+/What? No, she's fine, but I need to go put on a show for the nurse's
+office./
+
+/I'm not sure I understand/, she said, reaching the front entryway,
+and edging her way through a bit of a crowd. She wasn't quite sure
+what to expect, but Homura picking herself off the pavement was not
+it.
+
+"No, no, I'm fine, I was just startled," said Homura to a mousey
+little girl who was crouching beside her.
+
+"Well, just to be safe you should stay put anyway. A concussion is
+serious business. I won't have you taking any chances on my watch,"
+replied her attendant.
+
+"Ah, Nakihara-san, I think she'll be okay," said Hitomi to the
+over-eager health rep. She tentatively walked forward to the pair.
+
+"I don't have a concussion," said Homura. /Spare me/, she sent to
+Mami. /I do not need another health representative in my life right
+now./
+
+/Are you okay, Homura-chan?/ asked a confused Mami.
+
+/Please, just end me now/, said Homura, glaring up at Hitomi.
+
+Mami looked up at Hitomi, and saw the fluffy white animal now perched
+on Hitomi's shoulder. /Oh. Oh!/
+
+/Miss Tomoe, this is Miss Shizuki/, she sent to both girls, /and in
+the interest of group harmony, I will leave you two with each other./
+
+/Ah, good morning~/, replied Hitomi, sheepishly.
+
+/Four hours after I warned her/, sent Homura. /Four./
+
+----
+
+Kyoko was having second thoughts. What if this was a bad idea? An
+ambush? /But if they'd wanted an ambush, though/, she thought, /she
+could have surprised me at the church./
+
+Still. There was something unsettling about the idea that Oriko would
+be /expecting/ her in advance. It was rather like Homura calling her
+predictable, except even more so. It was almost a question of free
+will.
+
+Actually, it was exactly a question of free will. /Which is something
+Dad was always ambivalent about,/ considered Kyoko, moodily. Somehow
+the question seemed more real coming from Oriko than from an
+omniscient god, though.
+
+/I'm distracted/, she realized, /and I should be keeping an eye out,/
+/in case of any surprises./ Was that just the breeze, or was there a
+rustling sound in the hedge -
+
+she spun around, transforming, and spied the attacker, but it was too
+late, and -
+
+"Gotcha!" said a small voice as Kyoko felt someone grabbing her by the
+legs.
+
+"Bwuaua?"
+
+A little girl with green hair had leapt out of the bushes and attached
+herself to Kyoko's leg. /Oh, this one/, she thought. What was her name
+again? They'd bumped into each other on patrol before. She was pretty
+cute, actually.
+
+"Um... hi?"
+
+"Got ya!"
+
+Kyoko sighed, exhaled, de-transformed. "You shouldn't sneak up on
+people like that. I could have hurt you by mistake."
+
+"Oriko-onee-chan said it would be all right," declared the girl.
+
+/Of course she did/, thought Kyoko.
+
+"So, uh... Yuma-san, was it?"
+
+"No!!" She shook her head. "Yuma-/chan/."
+
+"So informal!" said Kyoko. "Yuma-chan, then, would you mind, ah,
+letting go of my leg?"
+
+Yuma shook her head No. "I've _got_ you now, Kyoko-onee-/chan/," she
+declared, "and there is no way to escape my clutches, so I'm, I'm...
+I'm taking you away to my magical realm and, and, and, I will have my
+way with you." She nodded with satisfaction and smiled.
+
+A flustered Kyoko ran that statement through her mind half a dozen
+times, trying to understand the implications. This was the Southern
+Group, though, legendary for violence and depravity. And here before
+her was a cute little girl, /completely at their mercy/.
+
+"Okay, what the /hell/ have these wierdoes been doing to you in
+there?" she cried in outrage. "Listen, Yuma-chan, if those wierdoes
+have hurt you -- so help me, if they have so much as laid a _finger_
+on you -- I will end them all, and burn this place down to the
+ground!"
+
+Yuma let go suddenly and fell on her bottom, aghast.
+
+"Wha.. no! /nooooo!/" She scrambled backwards for a moment, trying to
+get to her feet, and in a flash of green had transformed into her
+costume. "You won't do /anything/ to Oriko-onee-chan without - without
+going through me!"
+
+Kyoko took a moment to blink.
+
+Yuma hissed.
+
+"Whoa, hey, I - I'm sorry, this is some kind of misunderstanding. I'm
+sorry!"
+
+"Not as sorry as you're going to be!" retorted the grade-school girl,
+pointing her staff at Kyoko. It wasn't very scary looking for a
+weapon, a large white fuzzy sphere with a cat-tail on the end of a
+stick, almost as ridiculous as her cat-ear bonnet with green pigtails
+sticking out. Still, it's generally a mistake to judge a magical girl
+harmless on looks alone, and a thing like that, well ...  there was no
+telling what it could do; at least you knew what you were getting with
+a pointy stick.
+
+/Smooth move, me/, thought Kyoko. /How do I de-escalate this?/
+Probably best not to transform.
+
+"Hey, now, let's not fight! Especially out here on the street. I was
+just here to visit Oriko!"
+
+"Then why did you say you were going to hurt her?" She pointed the
+staff at Kyoko, accusingly.
+
+"It's, uh, hard to explain - well, /normally/ little girls don't hear
+things like that, unless someone's doing bad things to them. Where did
+you learn to say things like that?"
+
+Yuma stood thinking. A few different thoughts came together in her mind.
+
+"Oh," she said. "I guess... huh. Oriko said it was trouble too."
+
+"Yeah, big trouble. I'm just worried they might have been... doing bad
+things to you. Hurting you."
+
+"Oh..." She tensed. "bad things ... no ... not anymore." She looked
+up. "Oriko /saved/ me... from bad things." She nodded her head, and
+her pigtails wobbled.
+
+"Oh thank /god/," said Kyoko, relaxing. /That would be one nightmare I
+didn't need in my life./ "Can I see Oriko, though?"
+
+Yuma pondered briefly.
+
+"Okay, but ... /I'm keeping my eye on you/, Kyoko - onee - /chan!/"
+
+----
+TEMPORARY END. MORE LATER.
