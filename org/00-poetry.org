@@ -1,0 +1,32 @@
+#+SETUPFILE: setup.xorg
+
+Tradition dictates that we open the work with introspection and
+philosophy. Let us consider a twist, then, on the classic question:
+Can a multiverse of diverging world lines be justifiably called
+infinite?  We can trivially /imagine/ an infinity of different
+configurations, but there is no guarantee that every world which is
+possible is real, let alone reachable.
+
+What is the scale and the scope of the possible? Our own universe is
+quite finely tuned: a mere half-percent adjustment to the strong
+nuclear force would make /carbon/ a precious rare element, and a full
+2% would make stars as we know them impossible; our existence is
+already an exercise in the arbitrary and ridiculous. Surely then we
+ought keep an open mind when it comes to exotic universes. One writer
+I know would have you imagine a spacetime with a positive-definite
+Reimannian metric, where one can stop or reverse the flow of time
+itself by flying about in a clockwork rocket!
+
+In our universe of ridiculous universes, what laws must we find to be
+truly immutable?  What mathematics underlies the last bastion of
+sanity as our imaginary universes teeter on the madness of seething,
+untameable chaos?
+
+Chaos. Order. The progression of order to chaos. Surely, in any set of
+laws one can propose, it must remain a fact that there are more ways
+to be chaotic than there are to be ordered. Statistics, then, must
+rule over all, and the ultimate law of all universes is entropy.
+
+But we must put aside our feeble poetry for now and return to our ship
+of fools. Oh, yes, they chase phantoms as before. What will happen, I
+wonder, if they catch one?

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title></title>
+<!-- 2017-05-15 Mon 20:52 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title"></h1>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">It Is An Accursed Business</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<b>July 2009</b>
+</p>
+
+<p>
+The transfer student was trying to get out of an awkward conversation.
+</p>
+
+<p>
+"Are you protecting her? Just - let me know, and I'll let the matter
+drop."
+</p>
+
+<p>
+It was a hot July afternoon, several months after the transfer student
+had transferred in. School was letting out, and she'd gone up to the
+roof: more to find a moment of quiet reflection than anything else,
+but it made a fine place to look out over the city for signs of
+miasma. The weather this time of year usually meant that she had it to
+herself, but today was clearly an exception.
+</p>
+
+<p>
+"I told you before, I don't know anything," she replied.
+</p>
+
+<p>
+"Yes, well, you were lying then and you're lying now," observed the
+busybody, ever-so-politely.
+</p>
+
+<p>
+The transfer student closed her eyes, and took a deep breath. Maybe if
+she ignored the problem it would just go away.
+</p>
+
+<p>
+"I'm sorry, but I know it's true," insisted the interloper.
+</p>
+
+<p>
+In lieu of a reply, the other girl fiddled with her ribbon.
+</p>
+
+<p>
+"Please. I know &#x2026; I know it's probably my fault, but she was &#x2026; she
+was my best friend." She looked down at the ground - struggling to
+maintain her composure.
+</p>
+
+<p>
+Homura stopped fidgeting. <i>Damn it</i>, she thought. The worst thing is,
+she only knows half of what she was missing: not one, but <i>two</i> best
+friends, lost forever. It was quite sad.
+</p>
+
+<p>
+She sighed quietly. When considered that way, well&#x2026; she really
+should probably say <i>something</i> about it. <i>It's probably what she
+would have wanted,/ considered Homura. /Actually, she would probably
+try to have us be friends with each other</i>.
+</p>
+
+<p>
+The idea brought a wave of nostalgia. They <i>had</i> been friends before.
+Not for long, and long ago, but it wasn't a bad timeline, really,
+before Oriko had messed everything up. How many years had it been?
+Best not to think about that one too hard. A meaningless question in
+many ways. Forget about it.
+</p>
+
+<p>
+But then again, if Hitomi <i>was</i> a friend, well, then, she's someone
+worth protecting.
+</p>
+
+<p>
+<i>Okay. Protection. I've still got this.</i>
+</p>
+
+<p>
+"I'm not protecting her. I'm protecting <i>you</i>. She was my friend too,"
+said Homura, deliberately opaque in the phrasing, "and &#x2026; well, I'm
+sorry for brushing you off, but, it's kind of hard for me to talk
+about it."
+</p>
+
+<p>
+Hitomi looked up at her with an uncertain expression, not quite sure
+what to think. Akemi-san, always cool and collected, was shaking -
+just a little - her voice unsteady.
+</p>
+
+<p>
+"But, the thing is &#x2026; that difficulty &#x2026; it's all part and parcel of
+the reason I shouldn't tell you. Shizuki-san, please, if you listen to
+me at all, remember this. You don't want to know. No good can ever
+come of knowing. It is an accursed business, and you should have no
+part of it. <i>Do not seek to understand.</i> It has brought despair and
+ruin to many girls before Sayaka-chan, and it will not stop with
+her. One day, it will be the end of me, as well." She took a deep
+breath. It came out &#x2026; more emotional than she had planned.
+</p>
+
+<p>
+Hitomi blinked. "So she is dead, then."
+</p>
+
+<p>
+"It was the night she disappeared, the night of the concert - not even
+far from the concert. Her corpse? Annihilated. If it helps, I suppose,
+you should know that she went out trying to do the right thing,
+trying - hell, trying to be a true ally of justice. An exercise in
+futility, but she was never one to let that stop her. Stupid girl, but
+a brave heart&#x2026; I'm sorry. I'm no good at eulogies. But you should
+think well of her." <i>And in the name of Kaname Madoka-chan, don't try
+to follow in her footsteps</i>, she added mentally.
+</p>
+
+<p>
+"Oh." Hitomi closed her eyes, reflecting. "That's &#x2026; thank you,
+Akemi-san."
+</p>
+
+<p>
+"You may call me Homura, if you like."
+</p>
+
+<p>
+"Thank you, then, Homura-san. I guess &#x2026; well, it might have been a
+little self-centered, but, I was sure, I was almost <i>completely</i> sure,
+that it was about Kamijo-chan, and that it was all my fault."
+</p>
+
+<p>
+<i>It</i> was <i>about Kamijo, and it</i> was <i>your fault</i>, thought Homura. <i>But
+what do you even say to that?</i> She reflected a moment.
+</p>
+
+<p>
+"It was inevitable," she finally said, just a moment too late.
+</p>
+
+<p>
+"&#x2026; But it was still my fault."
+</p>
+
+<p>
+Homura inhaled. "It's not -"
+</p>
+
+<p>
+"It's okay," interrupted Hitomi. "You don't &#x2026; you don't have to
+pretend for my sake, or out of politeness."
+</p>
+
+<p>
+<i>Again</i>, thought Homura. She'd paused too long, and now she was doing
+it <i>again</i>, still unsure of what to say. <i>Am I just that easy to
+read?</i> <i>Or am I out of practice? Wow, Homura.</i> <i>Two hundred months of
+the same conversations and you've forgotten how to talk to real live
+people&#x2026;</i> Or &#x2026; no, when you got down to it, that was something she
+never actually learned to begin with.
+</p>
+
+<p>
+"It&#x2026; it's okay, I'll &#x2026; I'll just leave you be, Homura-san."
+</p>
+
+<p>
+"Hitomi-san," she called &#x2013; but the other girl was already running
+off.
+</p>
+
+<hr  />
+
+<p>
+Hitomi managed, somehow, <i>not</i> to cry until she had made it to her
+locker, and even then only for a bit. At home, though, safely cocooned
+in a pile of blankets and pillows, it was another matter.
+</p>
+
+<hr  />
+
+<p>
+"Well," said Mami-senpai. "What's done is done, I suppose. At the rate
+things are going, it's the last of our problems if she finds out
+more. And don't be too hard on yourself. It's not a bad thing to reach
+out and try to make a friend, you know. It's pretty lonely these
+days."
+</p>
+
+<p>
+The other girl pondered. It <i>was</i> pretty empty these days, but she
+liked it better empty. Mami always had a bad habit of putting on airs
+to impress the less experienced girls - even Kyoko, if only as a
+matter of habit. Now, though, there was no reason save the force of
+habit to play at being anything but cynical old veterans. It was a
+small comfort.
+</p>
+
+<p>
+Still, it wouldn't do to say so out loud.
+</p>
+
+<p>
+"I did my best to warn her away, at least," said Homura.
+</p>
+
+<p>
+A moment later, she started to laugh.
+</p>
+
+<p>
+"What?"
+</p>
+
+<p>
+"Oh, just - warning her away. Knowing my luck, that means she'll
+contract in a month, <i>maximum</i>."
+</p>
+
+<p>
+"You," said Mami, "are too hard on yourself, as usual. You're not so
+unlucky as you say you are. In combat, you're about as good as I am,
+and if I may say so myself, that is really <i>very</i> good."
+</p>
+
+<p>
+"Being good in a fight means you <i>don't</i> leave <i>anything</i> to luck."
+</p>
+
+<p>
+"That .. is true enough," noted Mami.
+</p>
+
+<p>
+They looked out over the city in silence, for a moment.
+</p>
+
+<p>
+"So, speaking of people who blame themselves for Sayaka, and really
+shouldn't," asked Mami, quietly, "where do you think she'd be out
+wandering tonight?"
+</p>
+
+<p>
+Homura shrugged. "In this heat? Somewhere with a beach, maybe."
+</p>
+
+<hr  />
+
+<p>
+The girl with red hair was not very good at wandering in the
+wilderness. For a week or three she had managed well enough, but one
+day after a mean little fight with some demons (and some girls who
+were doing a very bad job of stopping them) she'd gone into a train
+station, applied a very small amount of magic to a ticket machine (in
+lieu of cash) and found that her magical one-way ticket on the <i>next
+train to anywhere</i> was valid for all stations in Kazamino. Call it
+fate, perhaps.
+</p>
+
+<p>
+So Kyoko went home. At least the local riff-raff would know better
+than to mess with her. She didn't mind the fights themselves, and
+frightening idiots was always a bit of an adrenaline rush, but badly
+hurting them when they kept <i>throwing themselves at you</i>, heedless of
+their own well-being&#x2026; that was just depressing. Especially
+now. Better to be the legend, the scary girl everyone knew and
+avoided, <i>the Heretic of Kazamino City</i>. (They had wanted to call her
+a demon, but decided it was confusing.)
+</p>
+
+<p>
+She disembarked at Kazamino North Station, a run-down part of town
+(Kazamino was no Mitakihara, that was certain) filled with old offices
+and the occasional warehouse. It was a slightly longer walk, but the
+streets would be emptier this way, especially on a weekend.
+</p>
+
+<p>
+Eventually she reached the ruins.
+</p>
+
+<p>
+When was it she been here last? Was it really with Miki-san? It seemed
+recent, and yet so long ago. <i>This must be what it is to grow old</i>,
+she realized. The neighborhood was looking rougher than it used to be,
+trash in the streets, graffiti, ruin inviting neglect. It looks like
+one of the corner groceries here had gone out of business, too. A nice
+black car, darkened windows, parked in front of an apartment block
+across the way, a little out of place. Huh.
+</p>
+
+<p>
+The front door had fallen in last visit, hinges detached from the
+damaged frame. It lay there on the ground, unmoved. This was only
+natural, but still managed to unnerve her. It didn't feel right. Or
+maybe&#x2026;
+</p>
+
+<p>
+Hmm. Maybe it didn't feel right because someone else was here.
+</p>
+
+<p>
+"Hey! What's the big idea?" she shouted.
+</p>
+
+<p>
+The other girl was dressed in white, a nice outfit - Sunday best,
+perhaps, blouse trimmed with a bow and lace - seated, hands folded in
+her lap, in the front pew. She turned to face Kyoko.
+</p>
+
+<p>
+"Oh. I thought this was a place for contemplation," she said. "I'm
+sorry. I can leave if I'm bothering you."
+</p>
+
+<p>
+Kyoko tilted her head to the side. "Huh. You sure picked a funny
+church to come pray."
+</p>
+
+<p>
+"I know the history."
+</p>
+
+<p>
+"Mmh. Well," replied the red girl, walking forward down the
+aisle. "Contemplation, huh. I guess it's still good for that." There
+was something about the girl which was bugging her, but she couldn't
+quite place it - something besides the fact that she was here to begin
+with, that is.
+</p>
+
+<p>
+"Do you suppose God is real?" asked the girl in white. "Heaven? I
+wonder, sometimes. I could never see what comes after the end."
+</p>
+
+<p>
+<i>Oh</i>, thought Kyoko, stopping in her tracks, tensing as she recognized
+the figure. <i>It's</i> her. <i>The one with the bucket for a hat.</i>
+</p>
+
+<p>
+Kyoko had heard of Oriko more than seen her - usually she'd stay well
+away from combat, and it was her team full of murder-psychos that
+they'd meet. It was really annoying, because Oriko had precognitive
+powers, so her team would always know <i>exactly when</i> another group was
+overwhelmed and would swoop in, steal your hard-earned grief cubes,
+and occasionally stab magical girls in the face. Hard to sneak up on
+someone like that, easy to be ambushed. Through some good fortune, the
+Mitakihara Four only had occasional skirmishes, but the trail of
+bodies was legendary. Best to stay away, unless you didn't know any
+better, which is probably how that little girl ended up with the
+group&#x2026;
+</p>
+
+<p>
+And given it was probably her driver who had parked out in front, so,
+she might have brought her team, which means this could be her ambush
+right here, and -
+</p>
+
+<p>
+"Kirika's outside, but I asked her to stay put. I didn't come here to
+fight you, Kyoko."
+</p>
+
+<p>
+Kyoko exhaled. "What, so you came to talk religion?"
+</p>
+
+<p>
+"Is that so strange? We each have what you might call a unique
+perspective."
+</p>
+
+<p>
+"Hmh. You want unique, you should go back to Mitakihara and talk to
+Akemi-san."
+</p>
+
+<p>
+"Yes, well, I'm afraid she doesn't trust me. Apparently I hurt one of
+her friends in a previous life, I think. She's not very forthcoming
+about it, though. She never is."
+</p>
+
+<p>
+"I don't exactly trust you either."
+</p>
+
+<p>
+"I have a bad habit of unsettling people, I know." She reached into
+the back of the pew, pulling out a slightly moldy missal, opened it to
+a page in the middle, and began to read. "Death with life contended;
+combat, strangely ended. Life's own champion, slain, yet lives to
+reign&#x2026; Angels, there attesting. Shroud, with grave-clothes,
+resting. Christ, my hope, has risen."
+</p>
+
+<p>
+"Mm. That'd be an Easter sequence. You're a few weeks late."
+</p>
+
+<p>
+"You came on Easter, didn't you?"
+</p>
+
+<p>
+She had.
+</p>
+
+<p>
+"&#x2026; what's it to you?"
+</p>
+
+<p>
+"And on Christmas. I find it strange. Many Christians have left the
+church for far less than what you have been through."
+</p>
+
+<p>
+"Yeah, well, if you ask the church, we left a while <i>before</i>
+everything burned to the ground."
+</p>
+
+<p>
+"The faithful heretic. A minor miracle. Even at the end of her rope,
+she cries out, 'Dear god, please just let me have one happy dream.'"
+</p>
+
+<p>
+Kyoko glared.
+</p>
+
+<p>
+"I'm sorry, I'm doing it again. I'll try to stop."
+</p>
+
+<p>
+"You do that."
+</p>
+
+<p>
+"It's a lovely place, though," said Oriko, "even in ruins. Stained
+glass, shattered. There's probably a metaphor in that, if you go
+looking for it. "
+</p>
+
+<p>
+Kyoko sighed. "Actually, when I was little, I always wanted the
+windows to be more colorful, with lots of angels on them, but Dad was
+skeptical of those kinds of icons - and, of course, it was money,
+which we never had, not until the end."
+</p>
+
+<p>
+Oriko nodded. "I guess I hadn't considered the theological implications
+of architecture."
+</p>
+
+<p>
+"Oh, you can tell a lot about a church from that. I did a big report
+on it once for the bible study group. The Catholics really love the
+stained-glass saints and lots of busy color everywhere, but as you go
+north and west with the Reformation and the Protestants they prefer
+simple designs on fields of colors, or even just white, and more
+geometry. White and wood interiors, too, and the <i>prettiest</i> pipe
+organs you ever did see. The eastern churches like to paint their
+saints on the ceiling, and if you go to America they have some that
+just meet in warehouses, and oh my god why am I telling you -"
+</p>
+
+<p>
+"It's okay. I'll listen."
+</p>
+
+<p>
+"You know you <i>really</i> don't live up to your reputation as the queen
+of the psycho-crazies, Mikuni-san," said Kyoko, just a little bit
+exasperated.
+</p>
+
+<p>
+"Well, I can't say you're exactly the picture-perfect model of a
+juvenile delinquent yourself, Sakura-san."
+</p>
+
+<p>
+For the first time in well over a year, laughter echoed through the
+church. "Yeah. Yeah, I was a real good little choir girl back in the
+day, wasn't I? Almost as sharp a dresser as you, if I'm honest."
+</p>
+
+<hr  />
+
+<p>
+She wasn't sure how long they talked, but Oriko left her with a bag of
+fresh apples and an open invitation to drop by next time she was in
+town. "No need to call ahead," she had noted; "stop by for dinner,
+maybe?" Okay, the idea was a little creepy.
+</p>
+
+<p>
+Perhaps she would visit in a while anyway. Still, not too soon; maybe
+give it a few days, wait until the middle of the week. Besides, in this
+weather? Might as well take a little side trip and visit the beach.
+</p>
+
+<hr  />
+
+<p>
+<i>make a contract with me</i>, said the bunny - cat - thing to the
+emotional wreck, leaping onto a very elaborate canopy bed, <i>and</i>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
